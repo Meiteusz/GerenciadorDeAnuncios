@@ -1,4 +1,7 @@
-﻿create table Anuncios(
+﻿create database GerenciadorDeAnuncios;
+use GerenciadorDeAnuncios;
+
+create table Anuncios(
 Id int primary key identity not null,
 Nome varchar(250) not null,
 Cliente varchar(80) not null,
